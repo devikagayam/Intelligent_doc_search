@@ -1,4 +1,4 @@
-import json
+fimport json
 
 import streamlit as st
 from PIL import Image
@@ -8,7 +8,8 @@ from index import ingest_documents, get_documents_from_json
 from query import setup_query_engine, execute_query
 import time
 
-# Streamlit page configuration
+# Streamlit 
+# page configuration
 st.set_page_config(page_title="RAG with LlamaIndex, Elasticsearch and Llama3", layout="wide")
 
 es_client = AsyncElasticsearch("http://localhost:9200")

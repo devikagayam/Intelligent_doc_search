@@ -20,11 +20,6 @@ This repository houses a powerful tool that blends **Streamlit**, **Elasticsearc
 - Ollama
 - llama_index
 - Streamlit
-- poetry
-
-### Installation
-
-Clone and set up the project:
 
 
 ### Usage
